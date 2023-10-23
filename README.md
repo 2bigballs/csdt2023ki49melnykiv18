@@ -1,9 +1,9 @@
-# CSAD
+# Development
 
 ### Student
 | Number | Student | Task | Config format|
 | ------ | ------- | ---- | ------------ |
-| 18 | Melnyk Illia | RGB LED stripe | json |
+| 18 | Melnyk Illia | RGB LED stripe | ini |
 
 ### About repository
 This repository created for course "Computer systems automated design" of Lviv Polytechnic National University
