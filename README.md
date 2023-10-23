@@ -1,4 +1,4 @@
-# Development
+# Develop
 
 ### Student
 | Number | Student | Task | Config format|
