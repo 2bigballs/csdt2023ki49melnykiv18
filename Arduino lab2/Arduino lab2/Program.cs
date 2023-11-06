@@ -12,7 +12,7 @@ serialPort.DataReceived += (sender, e) =>
 {
     if (sender is SerialPort sender1)
     {
-        Console.WriteLine($"sender: {sender1.ReadExisting()}");
+        Console.WriteLine($"Sum: {sender1.ReadExisting()}");
     }
 };
 
@@ -21,4 +21,7 @@ await Task.Delay(1000);
 serialPort.Write(number2);
 await Task.Delay(1000);
 
-await Task.Delay(60000);
+
+await Task.Delay(20000);
+
+serialPort.Close();
