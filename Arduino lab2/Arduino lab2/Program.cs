@@ -1,8 +1,10 @@
 ﻿using System.IO.Ports;
 
-SerialPort serialPort = new SerialPort("COM5", 9600);
+SerialPort serialPort = new SerialPort("COM6", 9600);
 serialPort.Open();
+Console.WriteLine("Enter first numbers:");
 var number1 = Console.ReadLine();
+Console.WriteLine("Enter second numbers:");
 var number2 = Console.ReadLine();
 
 await Task.Delay(1000);
