@@ -1,0 +1,367 @@
+\doxysection{lab3\+\_\+\+Arduino.\+Form1 Class Reference}
+\hypertarget{classlab3___arduino_1_1_form1}{}\label{classlab3___arduino_1_1_form1}\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+
+
+Main Form.  
+
+
+Inheritance diagram for lab3\+\_\+\+Arduino.\+Form1\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classlab3___arduino_1_1_form1}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlab3___arduino_1_1_form1_ae7ee5696ae632a88ae9a3c64864b9d00}{Form1}} ()
+\begin{DoxyCompactList}\small\item\em Constructor Form for first initialize data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classlab3___arduino_1_1_form1_afe7664d19e1ef827604e19613246c826}{is\+On}} = false
+\item 
+\mbox{\hyperlink{namespacelab3___arduino_a071a7b29a29ef67413251b923abd5e1d}{Mode\+Type}} \mbox{\hyperlink{classlab3___arduino_1_1_form1_ac8f614c35ebc18b4f537029b0e41f19a}{mode}} = \mbox{\hyperlink{namespacelab3___arduino_a071a7b29a29ef67413251b923abd5e1dad15305d7a4e34e02489c74a5ef542f36}{Mode\+Type.\+Off}}
+\item 
+List$<$ Ini\+Model $>$ \mbox{\hyperlink{classlab3___arduino_1_1_form1_ad20683fe30ffc59994701612e0242c11}{ini\+Models}} = new List$<$Ini\+Model$>$()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a6ce66f120937497b5fcb2367f1bdcfff}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_ad036ae97a6a809ba213fa1621afca329}{Change\+Check\+Status\+All\+Radio\+Btn}} (bool check\+Status)
+\begin{DoxyCompactList}\small\item\em Change status all radio button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a5263627375ead46e3950f4d30e5f5311}{Disable\+Status\+Radio\+Button}} (bool status)
+\begin{DoxyCompactList}\small\item\em Set disable property in radio button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a2c96cedf6fb7073b4bd65e17b7baefc1}{Static\+Radio\+Btn\+\_\+\+Checked\+Changed}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Functional static mode radio button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a1582e3a554803ac44b779c9388de746d}{Slow\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Functional slowed mode radio button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a864894e4126dcb88523ccd7fea7d68ab}{Medium\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Functional medium mode radio button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_ae4a019126a15045dab0fa4e57227706e}{Fast\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Functional fast mode radio button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_afe345876b31354aacc326b86d22bbd6b}{Very\+Fast\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Functional very fast radio button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a9b71a56273146131f4b6b8e60da183df}{Custom\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Functional custom mode radio button. \end{DoxyCompactList}\item 
+Ini\+Model \mbox{\hyperlink{classlab3___arduino_1_1_form1_a83ae662c9650699d8aa260c5d2ced5e2}{Get\+Ini\+Model\+Mode}} ()
+\begin{DoxyCompactList}\small\item\em Function return object type Ini\+Model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a35ab000c81a0832f0d380e93456590ce}{Write\+Ini}} (List$<$ Ini\+Model $>$ \mbox{\hyperlink{classlab3___arduino_1_1_form1_ad20683fe30ffc59994701612e0242c11}{ini\+Models}})
+\begin{DoxyCompactList}\small\item\em Function write data in ini file, if file name does not exist create new file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a83aa3f8b216092445e8355a4a83c7569}{Read\+Ini\+And\+Send}} ()
+\begin{DoxyCompactList}\small\item\em Function send file ini to arduino ide. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a072d76a6af65efa6bffa2837445caa49}{On\+Off\+Btn\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Function has logic with on/off button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_ae702ced371402d9406e007c9285fde01}{Set\+Btn\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Function set custom delay value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlab3___arduino_1_1_form1_a10c4fbf1848b61b56feb45f6fe2bf350}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Required method for Designer support -\/ do not modify the contents of this method with the code editor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Serial\+Port \mbox{\hyperlink{classlab3___arduino_1_1_form1_a045259ddd70fd9fde52355db9a7438b2}{serial\+Port}} = new Serial\+Port("{}COM6"{}, 9600)
+\item 
+System.\+Component\+Model.\+IContainer \mbox{\hyperlink{classlab3___arduino_1_1_form1_abba25eb53cb38dcbe3edb78d1eaf54e8}{components}} = null
+\begin{DoxyCompactList}\small\item\em Required designer variable. \end{DoxyCompactList}\item 
+Radio\+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_a428b625d7eb37e9b4ecc0015a98db70f}{Slow\+Mode\+Radio\+Btn}}
+\item 
+Radio\+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_a79bf9b7dc633c3ed128f00cb6d76eb08}{Medium\+Mode\+Radio\+Btn}}
+\item 
+Radio\+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_aefd854a17f52b792e61011e527cb2b76}{Fast\+Mode\+Radio\+Btn}}
+\item 
+Radio\+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_a48cf3043bedcfb50325d1f96ef5d7b7c}{Very\+Fast\+Mode\+Radio\+Btn}}
+\item 
+Radio\+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_ab8ec8a011a524a682fdbc0788a9fcba5}{Custom\+Mode\+Radio\+Btn}}
+\item 
+Text\+Box \mbox{\hyperlink{classlab3___arduino_1_1_form1_aa484f66cf283ae6f54f23448da7c9c26}{Custom\+Mode\+Text\+Box}}
+\item 
+Radio\+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_a9de0641954ea9b9276484c84781f0c07}{Static\+Radio\+Btn}}
+\item 
+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_afbcc3cdb637946fc04249c6300c32968}{On\+Off\+Btn}}
+\item 
+Text\+Box \mbox{\hyperlink{classlab3___arduino_1_1_form1_aa89ff282f067fb25bc84438f6564f680}{On\+Off\+Text\+Field}}
+\item 
+Button \mbox{\hyperlink{classlab3___arduino_1_1_form1_afa6dc8bf32affdb39ebb2fbc0b642e12}{Set\+Btn}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main Form. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classlab3___arduino_1_1_form1_ae7ee5696ae632a88ae9a3c64864b9d00}\label{classlab3___arduino_1_1_form1_ae7ee5696ae632a88ae9a3c64864b9d00} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!Form1@{Form1}}
+\index{Form1@{Form1}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{Form1()}{Form1()}}
+{\footnotesize\ttfamily lab3\+\_\+\+Arduino.\+Form1.\+Form1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor Form for first initialize data. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classlab3___arduino_1_1_form1_ad036ae97a6a809ba213fa1621afca329}\label{classlab3___arduino_1_1_form1_ad036ae97a6a809ba213fa1621afca329} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!ChangeCheckStatusAllRadioBtn@{ChangeCheckStatusAllRadioBtn}}
+\index{ChangeCheckStatusAllRadioBtn@{ChangeCheckStatusAllRadioBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{ChangeCheckStatusAllRadioBtn()}{ChangeCheckStatusAllRadioBtn()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Change\+Check\+Status\+All\+Radio\+Btn (\begin{DoxyParamCaption}\item[{bool}]{check\+Status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Change status all radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a9b71a56273146131f4b6b8e60da183df}\label{classlab3___arduino_1_1_form1_a9b71a56273146131f4b6b8e60da183df} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!CustomModeRadioBtn\_CheckedChanged@{CustomModeRadioBtn\_CheckedChanged}}
+\index{CustomModeRadioBtn\_CheckedChanged@{CustomModeRadioBtn\_CheckedChanged}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{CustomModeRadioBtn\_CheckedChanged()}{CustomModeRadioBtn\_CheckedChanged()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Custom\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Functional custom mode radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a5263627375ead46e3950f4d30e5f5311}\label{classlab3___arduino_1_1_form1_a5263627375ead46e3950f4d30e5f5311} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!DisableStatusRadioButton@{DisableStatusRadioButton}}
+\index{DisableStatusRadioButton@{DisableStatusRadioButton}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{DisableStatusRadioButton()}{DisableStatusRadioButton()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Disable\+Status\+Radio\+Button (\begin{DoxyParamCaption}\item[{bool}]{status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Set disable property in radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a6ce66f120937497b5fcb2367f1bdcfff}\label{classlab3___arduino_1_1_form1_a6ce66f120937497b5fcb2367f1bdcfff} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void lab3\+\_\+\+Arduino.\+Form1.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{classlab3___arduino_1_1_form1_ae4a019126a15045dab0fa4e57227706e}\label{classlab3___arduino_1_1_form1_ae4a019126a15045dab0fa4e57227706e} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!FastModeRadioBtn\_CheckedChanged@{FastModeRadioBtn\_CheckedChanged}}
+\index{FastModeRadioBtn\_CheckedChanged@{FastModeRadioBtn\_CheckedChanged}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{FastModeRadioBtn\_CheckedChanged()}{FastModeRadioBtn\_CheckedChanged()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Fast\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Functional fast mode radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a83ae662c9650699d8aa260c5d2ced5e2}\label{classlab3___arduino_1_1_form1_a83ae662c9650699d8aa260c5d2ced5e2} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!GetIniModelMode@{GetIniModelMode}}
+\index{GetIniModelMode@{GetIniModelMode}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{GetIniModelMode()}{GetIniModelMode()}}
+{\footnotesize\ttfamily Ini\+Model lab3\+\_\+\+Arduino.\+Form1.\+Get\+Ini\+Model\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Function return object type Ini\+Model. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a10c4fbf1848b61b56feb45f6fe2bf350}\label{classlab3___arduino_1_1_form1_a10c4fbf1848b61b56feb45f6fe2bf350} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required method for Designer support -\/ do not modify the contents of this method with the code editor. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a864894e4126dcb88523ccd7fea7d68ab}\label{classlab3___arduino_1_1_form1_a864894e4126dcb88523ccd7fea7d68ab} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!MediumModeRadioBtn\_CheckedChanged@{MediumModeRadioBtn\_CheckedChanged}}
+\index{MediumModeRadioBtn\_CheckedChanged@{MediumModeRadioBtn\_CheckedChanged}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{MediumModeRadioBtn\_CheckedChanged()}{MediumModeRadioBtn\_CheckedChanged()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Medium\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Functional medium mode radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a072d76a6af65efa6bffa2837445caa49}\label{classlab3___arduino_1_1_form1_a072d76a6af65efa6bffa2837445caa49} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!OnOffBtn\_Click@{OnOffBtn\_Click}}
+\index{OnOffBtn\_Click@{OnOffBtn\_Click}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{OnOffBtn\_Click()}{OnOffBtn\_Click()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+On\+Off\+Btn\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Function has logic with on/off button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a83aa3f8b216092445e8355a4a83c7569}\label{classlab3___arduino_1_1_form1_a83aa3f8b216092445e8355a4a83c7569} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!ReadIniAndSend@{ReadIniAndSend}}
+\index{ReadIniAndSend@{ReadIniAndSend}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{ReadIniAndSend()}{ReadIniAndSend()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Read\+Ini\+And\+Send (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Function send file ini to arduino ide. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_ae702ced371402d9406e007c9285fde01}\label{classlab3___arduino_1_1_form1_ae702ced371402d9406e007c9285fde01} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!SetBtn\_Click@{SetBtn\_Click}}
+\index{SetBtn\_Click@{SetBtn\_Click}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{SetBtn\_Click()}{SetBtn\_Click()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Set\+Btn\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Function set custom delay value. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a1582e3a554803ac44b779c9388de746d}\label{classlab3___arduino_1_1_form1_a1582e3a554803ac44b779c9388de746d} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!SlowModeRadioBtn\_CheckedChanged@{SlowModeRadioBtn\_CheckedChanged}}
+\index{SlowModeRadioBtn\_CheckedChanged@{SlowModeRadioBtn\_CheckedChanged}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{SlowModeRadioBtn\_CheckedChanged()}{SlowModeRadioBtn\_CheckedChanged()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Slow\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Functional slowed mode radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a2c96cedf6fb7073b4bd65e17b7baefc1}\label{classlab3___arduino_1_1_form1_a2c96cedf6fb7073b4bd65e17b7baefc1} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!StaticRadioBtn\_CheckedChanged@{StaticRadioBtn\_CheckedChanged}}
+\index{StaticRadioBtn\_CheckedChanged@{StaticRadioBtn\_CheckedChanged}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{StaticRadioBtn\_CheckedChanged()}{StaticRadioBtn\_CheckedChanged()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Static\+Radio\+Btn\+\_\+\+Checked\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Functional static mode radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_afe345876b31354aacc326b86d22bbd6b}\label{classlab3___arduino_1_1_form1_afe345876b31354aacc326b86d22bbd6b} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!VeryFastModeRadioBtn\_CheckedChanged@{VeryFastModeRadioBtn\_CheckedChanged}}
+\index{VeryFastModeRadioBtn\_CheckedChanged@{VeryFastModeRadioBtn\_CheckedChanged}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{VeryFastModeRadioBtn\_CheckedChanged()}{VeryFastModeRadioBtn\_CheckedChanged()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Very\+Fast\+Mode\+Radio\+Btn\+\_\+\+Checked\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Functional very fast radio button. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_a35ab000c81a0832f0d380e93456590ce}\label{classlab3___arduino_1_1_form1_a35ab000c81a0832f0d380e93456590ce} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!WriteIni@{WriteIni}}
+\index{WriteIni@{WriteIni}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{WriteIni()}{WriteIni()}}
+{\footnotesize\ttfamily void lab3\+\_\+\+Arduino.\+Form1.\+Write\+Ini (\begin{DoxyParamCaption}\item[{List$<$ Ini\+Model $>$}]{ini\+Models }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Function write data in ini file, if file name does not exist create new file. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classlab3___arduino_1_1_form1_abba25eb53cb38dcbe3edb78d1eaf54e8}\label{classlab3___arduino_1_1_form1_abba25eb53cb38dcbe3edb78d1eaf54e8} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!components@{components}}
+\index{components@{components}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily System.\+Component\+Model.\+IContainer lab3\+\_\+\+Arduino.\+Form1.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required designer variable. 
+
+\Hypertarget{classlab3___arduino_1_1_form1_ab8ec8a011a524a682fdbc0788a9fcba5}\label{classlab3___arduino_1_1_form1_ab8ec8a011a524a682fdbc0788a9fcba5} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!CustomModeRadioBtn@{CustomModeRadioBtn}}
+\index{CustomModeRadioBtn@{CustomModeRadioBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{CustomModeRadioBtn}{CustomModeRadioBtn}}
+{\footnotesize\ttfamily Radio\+Button lab3\+\_\+\+Arduino.\+Form1.\+Custom\+Mode\+Radio\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_aa484f66cf283ae6f54f23448da7c9c26}\label{classlab3___arduino_1_1_form1_aa484f66cf283ae6f54f23448da7c9c26} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!CustomModeTextBox@{CustomModeTextBox}}
+\index{CustomModeTextBox@{CustomModeTextBox}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{CustomModeTextBox}{CustomModeTextBox}}
+{\footnotesize\ttfamily Text\+Box lab3\+\_\+\+Arduino.\+Form1.\+Custom\+Mode\+Text\+Box\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_aefd854a17f52b792e61011e527cb2b76}\label{classlab3___arduino_1_1_form1_aefd854a17f52b792e61011e527cb2b76} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!FastModeRadioBtn@{FastModeRadioBtn}}
+\index{FastModeRadioBtn@{FastModeRadioBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{FastModeRadioBtn}{FastModeRadioBtn}}
+{\footnotesize\ttfamily Radio\+Button lab3\+\_\+\+Arduino.\+Form1.\+Fast\+Mode\+Radio\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_ad20683fe30ffc59994701612e0242c11}\label{classlab3___arduino_1_1_form1_ad20683fe30ffc59994701612e0242c11} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!iniModels@{iniModels}}
+\index{iniModels@{iniModels}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{iniModels}{iniModels}}
+{\footnotesize\ttfamily List$<$Ini\+Model$>$ lab3\+\_\+\+Arduino.\+Form1.\+ini\+Models = new List$<$Ini\+Model$>$()}
+
+\Hypertarget{classlab3___arduino_1_1_form1_afe7664d19e1ef827604e19613246c826}\label{classlab3___arduino_1_1_form1_afe7664d19e1ef827604e19613246c826} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!isOn@{isOn}}
+\index{isOn@{isOn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{isOn}{isOn}}
+{\footnotesize\ttfamily bool lab3\+\_\+\+Arduino.\+Form1.\+is\+On = false}
+
+\Hypertarget{classlab3___arduino_1_1_form1_a79bf9b7dc633c3ed128f00cb6d76eb08}\label{classlab3___arduino_1_1_form1_a79bf9b7dc633c3ed128f00cb6d76eb08} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!MediumModeRadioBtn@{MediumModeRadioBtn}}
+\index{MediumModeRadioBtn@{MediumModeRadioBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{MediumModeRadioBtn}{MediumModeRadioBtn}}
+{\footnotesize\ttfamily Radio\+Button lab3\+\_\+\+Arduino.\+Form1.\+Medium\+Mode\+Radio\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_ac8f614c35ebc18b4f537029b0e41f19a}\label{classlab3___arduino_1_1_form1_ac8f614c35ebc18b4f537029b0e41f19a} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!mode@{mode}}
+\index{mode@{mode}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{mode}{mode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacelab3___arduino_a071a7b29a29ef67413251b923abd5e1d}{Mode\+Type}} lab3\+\_\+\+Arduino.\+Form1.\+mode = \mbox{\hyperlink{namespacelab3___arduino_a071a7b29a29ef67413251b923abd5e1dad15305d7a4e34e02489c74a5ef542f36}{Mode\+Type.\+Off}}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_afbcc3cdb637946fc04249c6300c32968}\label{classlab3___arduino_1_1_form1_afbcc3cdb637946fc04249c6300c32968} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!OnOffBtn@{OnOffBtn}}
+\index{OnOffBtn@{OnOffBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{OnOffBtn}{OnOffBtn}}
+{\footnotesize\ttfamily Button lab3\+\_\+\+Arduino.\+Form1.\+On\+Off\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_aa89ff282f067fb25bc84438f6564f680}\label{classlab3___arduino_1_1_form1_aa89ff282f067fb25bc84438f6564f680} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!OnOffTextField@{OnOffTextField}}
+\index{OnOffTextField@{OnOffTextField}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{OnOffTextField}{OnOffTextField}}
+{\footnotesize\ttfamily Text\+Box lab3\+\_\+\+Arduino.\+Form1.\+On\+Off\+Text\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_a045259ddd70fd9fde52355db9a7438b2}\label{classlab3___arduino_1_1_form1_a045259ddd70fd9fde52355db9a7438b2} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!serialPort@{serialPort}}
+\index{serialPort@{serialPort}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{serialPort}{serialPort}}
+{\footnotesize\ttfamily Serial\+Port lab3\+\_\+\+Arduino.\+Form1.\+serial\+Port = new Serial\+Port("{}COM6"{}, 9600)\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_afa6dc8bf32affdb39ebb2fbc0b642e12}\label{classlab3___arduino_1_1_form1_afa6dc8bf32affdb39ebb2fbc0b642e12} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!SetBtn@{SetBtn}}
+\index{SetBtn@{SetBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{SetBtn}{SetBtn}}
+{\footnotesize\ttfamily Button lab3\+\_\+\+Arduino.\+Form1.\+Set\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_a428b625d7eb37e9b4ecc0015a98db70f}\label{classlab3___arduino_1_1_form1_a428b625d7eb37e9b4ecc0015a98db70f} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!SlowModeRadioBtn@{SlowModeRadioBtn}}
+\index{SlowModeRadioBtn@{SlowModeRadioBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{SlowModeRadioBtn}{SlowModeRadioBtn}}
+{\footnotesize\ttfamily Radio\+Button lab3\+\_\+\+Arduino.\+Form1.\+Slow\+Mode\+Radio\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_a9de0641954ea9b9276484c84781f0c07}\label{classlab3___arduino_1_1_form1_a9de0641954ea9b9276484c84781f0c07} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!StaticRadioBtn@{StaticRadioBtn}}
+\index{StaticRadioBtn@{StaticRadioBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{StaticRadioBtn}{StaticRadioBtn}}
+{\footnotesize\ttfamily Radio\+Button lab3\+\_\+\+Arduino.\+Form1.\+Static\+Radio\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlab3___arduino_1_1_form1_a48cf3043bedcfb50325d1f96ef5d7b7c}\label{classlab3___arduino_1_1_form1_a48cf3043bedcfb50325d1f96ef5d7b7c} 
+\index{lab3\_Arduino.Form1@{lab3\_Arduino.Form1}!VeryFastModeRadioBtn@{VeryFastModeRadioBtn}}
+\index{VeryFastModeRadioBtn@{VeryFastModeRadioBtn}!lab3\_Arduino.Form1@{lab3\_Arduino.Form1}}
+\doxysubsubsection{\texorpdfstring{VeryFastModeRadioBtn}{VeryFastModeRadioBtn}}
+{\footnotesize\ttfamily Radio\+Button lab3\+\_\+\+Arduino.\+Form1.\+Very\+Fast\+Mode\+Radio\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/illya/\+One\+Drive/Робочий стіл/\+Programming/c\#/lab3\+\_\+\+Arduino/lab3\+\_\+\+Arduino/\mbox{\hyperlink{_form1_8cs}{Form1.\+cs}}\item 
+C\+:/\+Users/illya/\+One\+Drive/Робочий стіл/\+Programming/c\#/lab3\+\_\+\+Arduino/lab3\+\_\+\+Arduino/\mbox{\hyperlink{_form1_8_designer_8cs}{Form1.\+Designer.\+cs}}\end{DoxyCompactItemize}
